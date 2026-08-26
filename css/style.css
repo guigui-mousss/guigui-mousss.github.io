@@ -645,6 +645,35 @@ h2 {
   margin-bottom: 17px;
 }
 
+.cv-skills {
+  font-size: 1.2rem;
+}
+
+.cv-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 17px;
+}
+
+.cv-skill__dots {
+  display: flex;
+  gap: 5px;
+}
+
+.cv-skill .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-bg);
+  background-color: transparent;
+}
+
+.cv-skill .dot--on {
+  background-color: var(--color-bg);
+}
+
 .cv-lang {
   margin-bottom: 20px;
   font-size: 1.2rem;
@@ -655,6 +684,9 @@ h2 {
   height: 6px;
   border-radius: 3px;
   margin-top: 6px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cv-lang__fill {
