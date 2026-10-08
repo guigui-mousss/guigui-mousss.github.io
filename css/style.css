@@ -593,6 +593,12 @@ h2 {
   margin-bottom: 4px;
 }
 
+@media (min-width: 1025px) {
+  .cv-header-band__text h2 {
+    font-size: clamp(1.5rem, 3.2vw, 2.75rem);
+  }
+}
+
 .cv-header-band__text .subtitle {
   color: var(--color-bg);
   opacity: 0.85;
@@ -818,7 +824,7 @@ h2 {
   margin-left: 4px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1024px) {
   .cv-top-section {
     margin-top: 0;
     display: flex;
